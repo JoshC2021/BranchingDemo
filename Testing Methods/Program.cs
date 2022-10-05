@@ -11,7 +11,8 @@
 
             char[] chars = number.ToCharArray();
             bool isNumber = char.IsDigit(number.ToCharArray()[0]);
-            
+
+            Console.WriteLine("Testing second branch");
         }
     }
 }
